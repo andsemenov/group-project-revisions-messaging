@@ -53,6 +53,10 @@ input {
   font-weight: 700;
 }
 
+.site-header a {
+  border: 1px solid blue;
+}
+
 /* Messages */
 .message {
   margin: 1rem 3rem 1rem 1rem;
@@ -80,6 +84,11 @@ input {
   text-align: right;
 }
 
+.message--self {
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
 /* Input area to add a new message */
 .add-message {
   padding: 0.5rem 1rem;
@@ -91,4 +100,8 @@ input {
   border-radius: 2px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   background: #fff;
+}
+
+.add-message {
+  background-color: white;
 }
